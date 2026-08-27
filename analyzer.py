@@ -33,7 +33,6 @@ def analyze_services(json_file: str):
     )
 
     try:
-        # Temperature parameter removed for gpt-5.6-luna compatibility
         response = client.chat.completions.create(
             model="gpt-5.6-luna", 
             messages=[
