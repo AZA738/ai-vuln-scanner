@@ -25,6 +25,7 @@ Integrating automated tooling with bug bounty targets requires strict guardrails
 
 ## 📋 Sample AI Triage Report Output
 
+```text
 ============================================================
        AI VULNERABILITY TRIAGE REPORT (HITL REVIEW)
 ============================================================
@@ -36,6 +37,7 @@ Integrating automated tooling with bug bounty targets requires strict guardrails
     - CVE-2014-0226 (Race Condition / DoS)
     - Recommendation: Restrict unnecessary modules, enforce HTTPS.
 ============================================================
+```
 
 ## 🚀 Quick Start
 *(Note: Requires a valid OpenAI Developer API Key)*
@@ -57,3 +59,4 @@ export OPENAI_API_KEY="your-api-key-here"
 python3 recon.py
 python3 parser.py
 python3 analyzer.py
+```
