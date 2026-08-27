@@ -24,7 +24,7 @@ Integrating automated tooling with bug bounty targets requires strict guardrails
 * **Platform Adherence:** Prevents heavy, aggressive automated scanning that could degrade target services, adhering to standard bug bounty Terms of Service.
 
 ## 📋 Sample AI Triage Report Output
-```text
+
 ============================================================
        AI VULNERABILITY TRIAGE REPORT (HITL REVIEW)
 ============================================================
