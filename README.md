@@ -28,7 +28,7 @@ Integrating automated tooling with bug bounty targets requires strict guardrails
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/yourusername/ai-vuln-scanner.git](https://github.com/yourusername/ai-vuln-scanner.git)
+git clone [https://github.com/AZA738/ai-vuln-scanner.git](https://github.com/AZA738/ai-vuln-scanner.git)
 cd ai-vuln-scanner
 
 # 2. Activate virtual environment and install dependencies
