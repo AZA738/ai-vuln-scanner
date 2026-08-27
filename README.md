@@ -23,6 +23,20 @@ Integrating automated tooling with bug bounty targets requires strict guardrails
 * **Scope Enforcement:** Target domain whitelists and hardcoded scopes prevent scans outside of authorized bug bounty parameters.
 * **Platform Adherence:** Prevents heavy, aggressive automated scanning that could degrade target services, adhering to standard bug bounty Terms of Service.
 
+## 📋 Sample AI Triage Report Output
+```text
+============================================================
+       AI VULNERABILITY TRIAGE REPORT (HITL REVIEW)
+============================================================
+[+] Target: scanme.nmap.org
+[+] Port 22/tcp - OpenSSH 6.6.1p1
+    - CVE-2016-0777 (Information Disclosure)
+    - Recommendation: Upgrade OpenSSH package to latest stable version.
+[+] Port 80/tcp - Apache httpd 2.4.7
+    - CVE-2014-0226 (Race Condition / DoS)
+    - Recommendation: Restrict unnecessary modules, enforce HTTPS.
+============================================================
+
 ## 🚀 Quick Start
 *(Note: Requires a valid OpenAI Developer API Key)*
 
