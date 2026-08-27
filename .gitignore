@@ -1,0 +1,13 @@
+# Security & Credentials
+key.txt
+.env
+
+# Python Virtual Environment & Cache
+venv/
+__pycache__/
+*.pyc
+
+# Local Scan Outputs & Artifacts
+outputs/*.xml
+outputs/*.json
+outputs/*.txt
